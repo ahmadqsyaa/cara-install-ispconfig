@@ -4,9 +4,7 @@
 - jika os sudah di install dan sudah bisa digunakan lalu buka terminal.
 - ketik ```su``` di terminal lalu masukan password rootnya.
 - ketikan di terminal ``` nano /etc/apt/source.list ``` didalam file tersebut silahkan hapus semua dan ganti dengan.
-  ``` deb http://repo.ugm.ac.id/debian/ bookworm main contrib non-free ```.
-  ``` deb http://repo.ugm.ac.id/debian/ bookworm-updates main contrib non-free ```.
-  ``` deb http://repo.ugm.ac.id/debian-securiti/ bookworm/updates main contrib non-free ```.
+  ``` deb http://repo.ugm.ac.id/debian/ bookworm main contrib non-free deb http://repo.ugm.ac.id/debian/ bookworm-updates main contrib non-free deb http://repo.ugm.ac.id/debian-securiti/ bookworm/updates main contrib non-free ```
   *masukan  ke 3 url diatas lalu pastekan, simpan dengan mengklik ctrl + s dan ctrl + x untuk keluar*.
 - ketik di terminal, kita update packagenya ``` apt update && apt upgdrade ```.
 - kita install unzip dengan mengetik ``` apt install unzip ```.
