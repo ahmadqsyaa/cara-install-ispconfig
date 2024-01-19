@@ -6,6 +6,7 @@
 - ketikan di terminal ``` nano /etc/apt/source.list ``` didalam file tersebut silahkan hapus semua dan ganti dengan
 - ``` deb http://repo.ugm.ac.id/debian/ bookworm main contrib non-free ``` ``` deb http://repo.ugm.ac.id/debian/ bookworm-updates main contrib non-free ``` ``` deb http://repo.ugm.ac.id/debian-securiti/ bookworm/updates main contrib non-free ``` masukan  ke3 url diatas lalu pastekan, lalu simpan dengan mengklik ctrl + s dan ctrl + x untuk keluar
 - ketik di terminal, kita update packagenya ``` apt update && apt upgdrade ```
+- kita install unzip dengan mengetik ``` apt install unzip ```
 - lalu lalu kita download file ispconfig dengan mengetik ``` wget --no-check-certificate https://github.com/servisys/ispconfig_setup/archive/master.zip ```
 - lalu kita ekstrak file tadi dengan mengetik ``` unzip master.zip ```
 - lalu masuk kefolder yangbtadi sudah diekstrak dengan mengetik ``` cd ispconfig_setup-master ```
