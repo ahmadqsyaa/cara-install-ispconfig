@@ -1,6 +1,6 @@
 # cara-install-ispconfig
 #### step-step
-- siapkan os debian minimal 7 minimal 11 atau cek di repo nya **[disini](https://github.com/servisys/ispconfig_setup/tree/master/distros)**.
+- siapkan os debian minimal 7 maksimal 11 atau cek di repo nya **[disini](https://github.com/servisys/ispconfig_setup/tree/master/distros)**.
 - jika os sudah di install dan sudah bisa digunakan lalu buka terminal.
 - ketik ```su``` di terminal lalu masukan password rootnya.
 - ketikan di terminal ``` nano /etc/apt/source.list ``` didalam file tersebut silahkan hapus semua dan ganti dengan
