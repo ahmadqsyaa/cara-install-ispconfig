@@ -1,7 +1,7 @@
 # cara-install-ispconfig
 #### step-step install ispconfig debian 11
 - siapkan os debian minimal 7 maksimal 11 atau cek di repo distro nya **[disini](https://github.com/servisys/ispconfig_setup/tree/master/distros)** lihat gambar dibawah.
-- <img src="[https://imgur.com/S5sZo6o](https://i.imgur.com/S5sZo6o.png)"/>
+- <img src="https://i.imgur.com/S5sZo6o.png"/>
 - jika debian sudah di install dan sudah siap digunakan lalu buka terminal.
 - ketik ```su``` di terminal lalu masukan password root debian.
 - kita akan merubah url repository package, ketik di terminal ``` nano /etc/apt/sources.list ``` didalam file tersebut ada beberapa text yang tidak berguna silahkan hapus semua atau cukup beri tanda ```#``` seperti contoh pada gambar dibawah ini
