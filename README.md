@@ -8,7 +8,7 @@
 - <img src="https://i.imgur.com/thLMgSx.png" />
 - lalu cari digoogle **repository debian 11** lalu pastekan pada file *sources.list* tadi, 📝*sesuaikan pada versi anda*.
 - jika sudah di paste lalu simpan dengan mengklik **ctrl + s** dan **ctrl + x** untuk keluar.
-- ketik di terminal, lalu update packagenya ``` apt update && apt upgdrade ```.
+- ketik di terminal, lalu update packagenya ``` apt update && apt upgrade ```.
 - kita install unzip dengan mengetik ``` apt install unzip ```.
 - lalu kita download file ispconfig dengan meetode **wget** dengan mengetik ``` wget --no-check-certificate https://github.com/servisys/ispconfig_setup/archive/master.zip ```.
 - lalu kita ekstrak file tadi dengan mengetik ``` unzip master.zip ``` dia akan merubah file zip ke folder.
